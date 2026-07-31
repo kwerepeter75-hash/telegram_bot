@@ -8,8 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-// const CHAT_ID = process.env.CHAT_ID;
-const CHAT_ID = process.env.GROUP_ID;
+const CHAT_ID = process.env.CHAT_ID;
+// const CHAT_ID = process.env.GROUP_ID;
 
 
 app.post("/send", async (req, res) => {
